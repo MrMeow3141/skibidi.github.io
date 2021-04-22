@@ -7,8 +7,8 @@ export default function Home() {
                 I am currently an eighth grader at Detroit Country Day school. 
             </p>
             <p>
-                My main interests are theoretical math, competition math, competative programming, and machine learning. I also enjoy solving math and logic puzzles. 
-                I am relatively active at the competition math website <a href="https://artofproblemsolving.com/community/user/404771">Art of Problem Solving</a>.
+                I enjoy doing competition math and competative programming. I am also interested in theoretical math. I also enjoy solving math and logic puzzles, and I post very frequently 
+                on the math website <a href="artofproblemsolving.com/community/user/404771" target="_blank">Art of Problem Solving</a>.
             </p>
 
             <h2>Competative Math Experience</h2>
