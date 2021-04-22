@@ -1,0 +1,23 @@
+export default function Problem[#]() {
+    return(
+        <div>
+            <div className = "Problemcontent">
+                <h1>Problem</h1>
+                <p>
+                    This was the daily problem for [Date].
+                </p>
+                <p>
+
+                </p>
+                <h1>Hints</h1>
+                <p>
+
+                </p>
+                <h1>Solution</h1>
+                <p>
+
+                </p>
+            </div>
+        </div>
+    )
+}

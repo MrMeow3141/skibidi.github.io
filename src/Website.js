@@ -10,6 +10,8 @@ import Home from './Pages/Homepage';
 import Projects from './Pages/Projects';
 import Problems from './Pages/Problems';
 import ProblemList from './Pages/Problems/List';
+import Problem1 from './Pages/Problems/Problem1';
+import Problem2 from './Pages/Problems/Problem2';
 
 function Website(){
     return (
@@ -17,6 +19,12 @@ function Website(){
             <Router>
                 <TopBar/>
                 <Switch>
+                    <Route path="/problemlist/2">
+                        <Problem2/>
+                    </Route>
+                    <Route path="/problemlist/1">
+                        <Problem1/>
+                    </Route>
                     <Route path="/problemlist">
                         <ProblemList/>
                     </Route>
