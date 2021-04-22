@@ -1,3 +1,5 @@
+import {Link} from "react-router-dom"
+
 export default function Problems(){
     return(
         <div className="Problempage">
@@ -11,6 +13,10 @@ export default function Problems(){
             suit. The 52 cards are face down. One at a time, I must guess the suit of the card on top and the card is taken off. If I always guess the suit that has 
             the most cards left (if multiple are tied, I guess a random one out of the ones tied), prove that I must guess at least 13 cards correctly. (Source: 
             AoPS Intermediate Counting and Probability).
+            <p><Link className="Listlink" to="/problemlist">Problem List</Link></p>
+            <p>
+                <Link className="Listlinktext" to="/problemlist">A list of previous daily problems and other problems.</Link>
+            </p>
         </div>
     )
 }

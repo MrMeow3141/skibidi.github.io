@@ -9,6 +9,7 @@ import {BrowserRouter as Router,Route,Link,Switch,useLocation} from "react-route
 import Home from './Pages/Homepage';
 import Projects from './Pages/Projects';
 import Problems from './Pages/Problems';
+import ProblemList from './Pages/Problems/List';
 
 function Website(){
     return (
@@ -16,6 +17,9 @@ function Website(){
             <Router>
                 <TopBar/>
                 <Switch>
+                    <Route path="/problemlist">
+                        <ProblemList/>
+                    </Route>
                     <Route path="/projects">
                         <Projects/>
                     </Route>

@@ -81,18 +81,25 @@ a:hover {
 
 .Homepage {
     margin: auto;
-    margin-top: 6%;
+    margin-top: 6em;
     width: 70%;
 }
 
 .Projectpage {
     margin: auto;
-    margin-top: 6%;
+    margin-top: 6em;
     width: 70%;
 }
 
 .Problempage {
     margin: auto;
-    margin-top: 6%;
+    margin-top: 6em;
     width: 70%;
 }
+
+.Problemlistpage{
+    margin: auto;
+    margin-top: 6em;
+    width: 70%;
+}
+

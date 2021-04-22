@@ -29,3 +29,36 @@ a:hover {
     color:rgb(14, 108, 196);
 }
 
+.Listlink {
+    font-size: 200%;
+    font-weight: bold;
+    color: rgb(61, 90, 204) !important;
+}
+
+.Listlink:hover{
+    color:rgb(0, 183, 255) !important;
+}
+
+.Easyproblemlink {
+    color: rgb(50, 168, 78) !important;
+}
+
+.Easyproblemlink:hover {
+    color: rgb(57, 219, 96) !important;
+}
+
+.Mediumproblemlink {
+    color: rgb(240, 194, 58) !important;
+}
+
+.Mediumproblemlink:hover {
+    color: rgb(227, 192, 34) !important;
+}
+
+.Hardproblemlink {
+    color: rgb(189, 17, 17) !important;
+}
+
+.Hardproblemlink:hover {
+    color: rgb(227, 34, 34) !important;
+}
