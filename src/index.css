@@ -1,10 +1,31 @@
 body{    
     font-family: WorkSans;
+    line-height: 1.5;
 }
 
 @font-face {
     font-family: 'WorkSans';
     src: local('WorkSans'), url(./Fonts/WorkSans-VariableFont_wght.ttf) format("opentype");
     font-weight: normal;
+}
+
+h1 {color: rgb(61, 90, 204); text-align: center;}
+h2 {color: rgb(61, 90, 204); text-align: center;}
+h3 {color: rgb(61, 90, 204); text-align: center;}
+h4 {color: rgb(61, 90, 204); text-align: center;}
+h5 {color: rgb(61, 90, 204); text-align: center;}
+h6 {color: rgb(61, 90, 204); text-align: center;}
+
+p{
+    font-size: medium;
+    color: black;
+}
+
+a{
+    color:rgb(98, 195, 255);
+}
+
+a:hover {
+    color:rgb(14, 108, 196);
 }
 

@@ -14,56 +14,32 @@
     height: 10%;
 }
 
-
-/* Vertical Lines*/
-
-.vl1 {
-    position: absolute;
-    border-left: 0.1em solid rgb(98, 195, 255);
-    height: 80%;
-    left: 15.7%;
-}
-
-.vl2 {
-    position: absolute;
-    border-left: 0.1em solid rgb(98, 195, 255);
-    height: 80%;
-    left: 27.3%
-}
-
 /* Left Bar */
 
 .BarLeft{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
     text-align: left;
     color: rgb(98, 195, 255);
-    margin-left: 0.69% /* nice */;
+    margin-left: 2%;
+    white-space: nowrap;
 }
 
-.Homelink:hover {
-    color:rgb(14, 108, 196) !important;
+.Pagelink {
+    margin-left: 1.5%;
+    padding-right: 1.5%;
+    border-right: 0.1em solid rgb(98, 195, 255);
 }
 
-.Projects {
-    position: absolute;
-    margin-left: 1.7%;
-}
-
-.Projects:hover {
-    color:rgb(14, 108, 196) !important;
-}
-
-.Problems {
-    position: absolute;
-    margin-left: 13.4%;
-}
-
-.Problems:hover {
+.Pagelink:hover {
     color:rgb(14, 108, 196) !important;
 }
 
 /* Right Bar */
 
 .BarRight{
+    display: flex;
     text-align: right;
     margin-right: 0.69%;
 }
@@ -71,6 +47,7 @@
 .BarLink {
     display: flex;
     align-items: center;
+    margin-right: 5%;
 }
 
 a:link {
@@ -86,4 +63,24 @@ a:visited {
 a:hover {
     color: rgb(14, 108, 196);
     text-decoration: none;
+}
+
+/*******************PAGES******************/
+
+.Homepage {
+    margin: auto;
+    margin-top: 6%;
+    width: 80%;
+}
+
+.Projectpage {
+    margin: auto;
+    margin-top: 6%;
+    width: 80%;
+}
+
+.Problempage {
+    margin: auto;
+    margin-top: 6%;
+    width: 80%;
 }
