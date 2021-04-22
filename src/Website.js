@@ -7,7 +7,7 @@ import {GiCube} from 'react-icons/gi'
 import {BrowserRouter as Router,Route,Link,Switch,useLocation} from "react-router-dom"
 
 import Home from './Pages/Homepage';
-import Projects from './Pages/Projects';
+import Projects from './Pages/Achievements';
 import Problems from './Pages/Problems';
 import ProblemList from './Pages/Problems/List';
 import Problem1 from './Pages/Problems/Problem1';
@@ -56,9 +56,9 @@ function TopBar() {
                 {/* eslint-disable-next-line */}
                 <Link className="Pagelink" to="/" style={{color: (path === "/" ? "rgb(14, 108, 196)" : "rgb(98, 195, 255)")}}>Henry Jiang</Link>
                 {/* eslint-disable-next-line */}
-                <Link className="Pagelink" to="/projects" style={{color: (path === "/projects" ? "rgb(14, 108, 196)" : "rgb(98, 195, 255)")}}>Projects</Link>
+                <Link className="Pagelink" to="/projects" style={{color: (path === "/projects" ? "rgb(14, 108, 196)" : "rgb(98, 195, 255)")}}>Achievements</Link>
                 {/* eslint-disable-next-line */}
-                <Link className="Pagelink" to="/problems" style={{color: (path === "/problems" ? "rgb(14, 108, 196)" : "rgb(98, 195, 255)")}}>Problems</Link>
+                <Link className="Pagelink" to="/problems" style={{color: (path === "/problems" ? "rgb(14, 108, 196)" : "rgb(98, 195, 255)")}}>Puzzles</Link>
             </div>
             <div className="BarRight">
                 <a href="mailto: jiangstem@gmail.com" target="_blank"> <div className = "BarLink"> <GrMail/> Email </div> </a>
