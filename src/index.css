@@ -1,0 +1,10 @@
+body{    
+    font-family: WorkSans;
+}
+
+@font-face {
+    font-family: 'WorkSans';
+    src: local('WorkSans'), url(./Fonts/WorkSans-VariableFont_wght.ttf) format("opentype");
+    font-weight: normal;
+}
+
