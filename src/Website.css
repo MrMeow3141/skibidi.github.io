@@ -9,7 +9,7 @@
     right: 0;
     bottom: 0;
     align-items: center;
-    font-size: 150%;
+    font-size: 180%;
     height: 10%;
 }
 
@@ -48,7 +48,7 @@
     display: inline-flex;
     align-items: center;
     justify-content: space-evenly;
-    margin-right: 0.3em;
+    margin-right: 0.45em;
 }
 
 a:link {
