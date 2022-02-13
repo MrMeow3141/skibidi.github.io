@@ -4,7 +4,7 @@ import {GrMail} from 'react-icons/gr'
 // eslint-disable-next-line
 import {SiGithub,SiCodeforces,SiLeetcode} from 'react-icons/si'
 import {GiCube} from 'react-icons/gi'
-import {BrowserRouter as Router,Route,Link,Switch,useLocation} from "react-router-dom"
+import {HashRouter as Router,Route,Link,Switch,useLocation} from "react-router-dom"
 
 import Home from './Pages/Homepage';
 import Projects from './Pages/Achievements';
