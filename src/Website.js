@@ -54,12 +54,13 @@ function TopBar() {
         <div className="Bar">
             <div className="BarLeft">
                 {/* eslint-disable-next-line */}
-                <Link className="Pagelink" to="/" style={{color: (path === "/" ? "rgb(14, 108, 196)" : "rgb(98, 195, 255)")}}>Henry Jiang</Link>
+                <Link className="Pagelink" to="/" style={{color: (path === "/" ? "rgb(34, 148, 255)" : "rgb(98, 195, 255)")}}>Henry Jiang</Link>
                 {/* eslint-disable-next-line */}
-                <Link className="Pagelink" to="/projects" style={{color: (path === "/projects" ? "rgb(14, 108, 196)" : "rgb(98, 195, 255)")}}>Achievements</Link>
+                <Link className="Pagelink" to="/projects" style={{color: (path === "/projects" ? "rgb(34, 148, 255)" : "rgb(98, 195, 255)")}}>Achievements</Link>
                 {/* eslint-disable-next-line */}
-                <Link className="Pagelink" to="/problems" style={{color: (path === "/problems" ? "rgb(14, 108, 196)" : "rgb(98, 195, 255)")}}>Puzzles</Link>
+                <Link className="Pagelink" to="/problems" style={{color: (path === "/problems" ? "rgb(34, 148, 255)" : "rgb(98, 195, 255)")}}>Puzzles</Link>
             </div>
+            
             <div className="BarRight">
                 <a href="mailto: jiangstem@gmail.com" target="_blank"> <div className = "BarLink"> <GrMail/> Email </div> </a>
                 <a href="https://github.com/HenrySTEM" target="_blank"> <div className = "BarLink"> <SiGithub/> Github </div> </a>

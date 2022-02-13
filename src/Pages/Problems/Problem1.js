@@ -1,9 +1,12 @@
 import { MathComponent } from 'mathjax-react'
+import {AiOutlineArrowLeft} from 'react-icons/ai'
+import {Link} from 'react-router-dom'
 
 export default function Problem1() {
     return(
         <div>
             <div className = "Problemcontent">
+                {/* <Link to="/problemlist" className="Backarrow"><AiOutlineArrowLeft/> Back to problem list</Link> */}
                 <h1>Problem</h1>
                 <p>
                     This was the daily problem for April 20, 2021.

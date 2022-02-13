@@ -2,7 +2,7 @@ import {Link} from "react-router-dom"
 
 export default function Problems(){
     return(
-        <div className="Problempage">
+        <div className="Page">
             <h1> Math Puzzles </h1>
             <p>
                 I post daily math problems. Many are from competitions such as the AMC, AIME, USA(J)MO, Mathcounts, and others. However, some will be made up by myself or 

@@ -1,7 +1,7 @@
 .Bar{
     display: flex;
     justify-content: space-between;
-    background: rgb(74, 131, 255);
+    background: rgb(0, 68, 107);
     position: fixed;
     width: 100%;
     top: 0;
@@ -10,7 +10,7 @@
     bottom: 0;
     align-items: center;
     font-size: 180%;
-    height: 10%;
+    height: 2em;
 }
 
 /* Left Bar */
@@ -21,18 +21,20 @@
     align-items: center;
     text-align: left;
     color: rgb(98, 195, 255);
-    margin-left: 1.5%;
+    margin-left: 1.8%;
     white-space: nowrap;
+    
 }
 
 .Pagelink {
     margin-left: 1.5%;
     padding-right: 1.5%;
     border-right: 0.1em solid rgb(98, 195, 255);
+
 }
 
 .Pagelink:hover {
-    color:rgb(14, 108, 196) !important;
+    color:rgb(34, 148, 255) !important;
 }
 
 /* Right Bar */
@@ -42,6 +44,7 @@
     text-align: right;
     margin-right: 0.69%;
     justify-content: space-evenly;
+    overflow: hidden;
 }
 
 .BarLink {
@@ -62,7 +65,7 @@ a:visited {
 }
 
 a:hover {
-    color: rgb(14, 108, 196);
+    color: rgb(34, 148, 255) !important;
     text-decoration: none;
 }
 
@@ -79,32 +82,16 @@ a:hover {
 
 /*******************PAGES******************/
 
-.Homepage {
+.Page {
     margin: auto;
-    margin-top: 6em;
+    margin-top: 6%;
     width: 70%;
 }
 
-.Projectpage {
-    margin: auto;
-    margin-top: 6em;
-    width: 70%;
-}
-
-.Problempage {
-    margin: auto;
-    margin-top: 6em;
-    width: 70%;
-}
-
-.Problemlistpage{
-    margin: auto;
-    margin-top: 6em;
-    width: 70%;
-}
 
 .Problemcontent {
     margin: auto;
     margin-top: 6em;
     width: 70%;
 }
+

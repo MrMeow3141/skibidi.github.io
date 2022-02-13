@@ -63,3 +63,12 @@ a:hover {
     color: rgb(227, 34, 34) !important;
 }
 
+.Backarrow{
+    display: inline-flex;
+    align-items: center;
+    color:rgb(14, 108, 196) !important;
+}
+
+.Backarrow:hover {
+    color:rgb(13, 81, 145) !important;
+}
