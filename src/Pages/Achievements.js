@@ -2,13 +2,18 @@ export default function Projects(){
     return(
         <div className = "Page"> 
             <h1>Achievements</h1>
-            <h2>Math Experience</h2>
+            <h2>Competition Math Experience</h2>
             <p>
                 I have done competitive math for over five years. I am a two-time national Mathcounts qualifier (6th and 8th grade, as 7th grade Mathcounts was 
-                canceled due to COVID-19). I am also a USAJMO qualifier and AIME qualifier since 6th grade. I have also achieved DHR (top 1%)
+                canceled due to COVID-19). I am also a two-time USAJMO qualifier and an AIME qualifier since 6th grade. I have also achieved DHR (top 1%)
                 for the AMC 10.
-            </p>
 
+                In 2022, I qualified for the Math Olympiad Program (MOP) and qualified for the Team Selection Test group.
+            </p>
+            <h2>Research Math Experience</h2>
+            <p>
+                I qualified for the PRIMES-USA research program in 2023. I haven't published anything yet.
+            </p>
             <h2>Programming Experience</h2>
             <p>
                 I have done competitive programming for about two years. I am a specialist on <a href="https://codeforces.com/profile/JiangSTEM">Codeforces</a>, and 
