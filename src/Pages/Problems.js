@@ -5,7 +5,7 @@ export default function Problems(){
         <div className="Page">
             <h1> Math Puzzles </h1>
             <p>
-                I post daily math problems. Many are from competitions such as the AMC, AIME, USA(J)MO, Mathcounts, and others. However, some will be made up by myself or 
+                I occasionally post math problems. Many are from competitions such as the AMC, AIME, USA(J)MO, Mathcounts, and others. However, some will be made up by myself or 
                 my friends. 
             </p>
             <h1>Today's Daily Problem</h1>
