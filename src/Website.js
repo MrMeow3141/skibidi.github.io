@@ -39,9 +39,9 @@ function Website(){
                     </Route>
                 </Switch>
             </Router>
-            {/* <div className="BottomBar">
+            { <div className="BottomBar">
                 Website created with React <a href="https://github.com/HenrySTEM/HenrySTEM.github.io" target="_blank">[Source Code]</a>
-            </div> */}
+            </div>}
         </div>
         
     )
